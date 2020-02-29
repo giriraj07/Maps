@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Examine6">
+           <LinearLayout
+           android:orientation="vertical"
+           android:layout_height="100dp"
+           android:layout_width="match_parent"
+           android:layout_marginTop="100dp"
+           android:background="@drawable/rectangle"
+           >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="60dp"
+                   android:orientation="horizontal">
+               <TextView
+                   android:layout_width="200dp"
+                   android:gravity="center"
+                   android:layout_height="60dp"
+                   android:textColor="#ff4500"
+                   android:textSize="28dp"
+                   android:layout_weight="0.8"
+                   android:text=" Numbers - Miyad "
+                   />
+               <TextView
+                   android:layout_width="12dp"
+                   android:layout_height="30dp"
+                   android:layout_weight="0.2"
+                   android:layout_gravity="center"
+                   android:backgroundTint="#ff4500"
+                   android:background="@drawable/bookmark_2" />
+               </LinearLayout>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/bottom_round_rec"
+            android:text=" Learn "
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+       android:orientation="vertical"
+       android:layout_height="100dp"
+       android:layout_width="match_parent"
+       android:layout_marginTop="10dp"
+       android:background="@drawable/rectangle"
+    >
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="60dp"
+            android:textColor="#ff4500"
+            android:layout_weight="0.8"
+            android:textSize="28dp"
+            android:text=" Numbers - Go "
+            />
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:backgroundTint="#ff4500"
+            android:background="@drawable/bookmark_2" />
+    </LinearLayout>
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:gravity="center"
+          android:background="@drawable/bottom_round_rec"
+          android:text=" Learn "
+          android:textColor="#ffffff"
+          android:textSize="15dp"
+            />
+</LinearLayout>
+       <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle"
+        >
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+              <TextView
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_height="60dp"
+                android:textColor="#ff4500"
+                android:textSize="28dp"
+                android:layout_weight="0.8"
+                android:text=" Numbers - Akhiya "
+                />
+              <TextView
+                android:layout_width="12dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.2"
+                android:layout_gravity="center"
+                android:backgroundTint="#ff4500"
+                android:background="@drawable/bookmark_2" />
+        </LinearLayout>
+          <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/bottom_round_rec"
+            android:text=" Learn "
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+        </LinearLayout>
+</LinearLayout>
+
+
+

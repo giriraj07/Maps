@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/orange"
+        android:gravity="center"
+        android:text="REVIEW"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+       <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Question"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:gravity="center"
+          android:layout_marginTop="5dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginEnd="10dp"
+          android:textColor="#000000"
+          android:textStyle="bold"
+          android:text=" 1. What is the sum of 2+2? "
+          android:background="@drawable/black_circular"
+          android:textSize="20dp"
+          android:layout_marginRight="10dp"
+          />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Correct Answer"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="#00ff00"
+        android:textStyle="bold"
+        android:text=" 16 "
+        android:background="@drawable/black_circular"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text=" Your Answer "
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="#ff4500"
+        android:textStyle="bold"
+        android:text=" 4 "
+        android:background="@drawable/black_circular"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/black_circular"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:layout_height="30dp"
+            android:textColor="#ff4500"
+            android:textSize="18dp"
+            android:text=" Incorrect Answer"
+            />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:backgroundTint="#ff4700"
+            android:background="@drawable/highlight_off" />
+        </LinearLayout>
+</LinearLayout>

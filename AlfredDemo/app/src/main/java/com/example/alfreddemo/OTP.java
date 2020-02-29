@@ -16,7 +16,7 @@ public class OTP extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.otp);
         Button btn=findViewById(R.id.btngo);
-        btn.setOnClickListener(new View.OnClickListener()
+          btn.setOnClickListener(new View.OnClickListener()
           {
             @Override
             public void onClick(View v)
